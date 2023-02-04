@@ -1,0 +1,187 @@
+body
+{
+    background-image: url(blueprintBG.png);    
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 36pt;
+    margin-bottom: 0;
+
+    /* 1 pixel black shadow to left, top, right and bottom */
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    /* -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black; */
+}
+h2
+{
+    margin-top: 1cm;
+    text-align: center;
+    /* font-size: 36pt; */
+    /* 1 pixel black shadow to left, top, right and bottom */
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    /* -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black; */
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    height: 12%;
+    border: 5px solid lightsteelblue;
+    
+    
+}
+
+.cslink:link, .cslink:visited
+{
+    color: lightsteelblue;
+    font-size: 14pt;
+    margin-left: 3cm;
+    font-weight: bold;
+
+}
+.cslink:hover
+{
+    color: gold;
+}
+
+.assignments
+{
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    text-align: center;
+    width: 15cm;
+    height: 20cm;
+    
+}
+
+.firstrow
+{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+tr:nth-child(odd)
+{
+    background-color: darkslateblue;
+}
+tr:nth-child(even)
+{
+    background-color: lightslategray;
+}
+
+.tablelink:link, .tablelink:visited
+{
+    color: antiquewhite;
+}
+.tablelink:hover
+{
+    color: gold;
+}
+
+.topleft
+{    
+    position: absolute;
+    left: 3.1cm;
+    top: 3.5cm;
+    border: 3px solid lightsteelblue;
+    width: 10cm;
+    height: 9cm;
+    text-align: center;
+    background-color: rgba(72,61,139, 0.5);
+    font-weight: bold;
+
+}
+
+.list
+{
+    text-align: left;
+    line-height: 200%;
+    font-weight: bold;
+}
+
+.hobbieslink:link, .hobbieslink:visited
+{
+    color: lightsteelblue;
+}
+.hobbieslink:hover
+{
+    color: gold;
+}
+
+.topright
+{    
+    position: absolute;
+    left: 27cm;
+    top: 3.5cm;
+    border: 3px solid lightsteelblue;
+    width: 10cm;
+    height: 9cm;
+    text-align: center;
+    background-color: rgba(72,61,139, 0.5);
+    font-weight: bold;
+}
+
+.reslink:link, .reslink:visited
+{
+    color: lightsteelblue;
+    font-size: 14pt;
+
+}
+.reslink:hover
+{
+    color: gold;
+}
+
+.botleft
+{    
+    position: absolute;
+    left: 3.1cm;
+    top: 13.5cm;
+    border: 3px solid lightsteelblue;
+    width: 7cm;
+    height: 2cm;
+    text-align: center;
+    background-color: rgba(72,61,139, 0.5);
+}
+
+.botright
+{    
+    position: absolute;
+    left: 30cm;
+    top: 13.5cm;
+    border: 3px solid lightsteelblue;
+    width: 7cm;
+    height: 4.5cm;
+    text-align: center;
+    background-color: rgba(72,61,139, 0.5);
+    font-weight: bold;
+
+}
+
+.weblink:link, .weblink:visited
+{
+    color: lightsteelblue;
+    font-size: 14pt;
+            
+}
+.weblink:hover
+{
+    color: gold;
+}
+
+.span
+{
+    color: red;
+    font-weight: bold;
+}
+
